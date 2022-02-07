@@ -37,9 +37,9 @@ public class MerchService implements RepoService {
 	}
 	
 	@Override
-	public Merchandise getAll(Object o) {
+	public Object getAll(Object o) {
 		try {
-			return (Merchandise) repo.getAll(o);
+			return repo.getAll(o);
 		} catch (InstantiationException | IllegalAccessException e) {
 			e.printStackTrace();
 		}

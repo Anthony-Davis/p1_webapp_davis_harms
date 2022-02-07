@@ -10,12 +10,18 @@ public class Merchandise {
 	
 	@Column(name = "id", type = SqlDataType.INTEGER)
 	private int id;
+	
 	@Column(name = "name", type = SqlDataType.VARCHAR)
 	private String name;
+	
 	@Column(name = "price", type = SqlDataType.DOUBLE)
 	private double price;
+	
 	@Column(name = "department", type = SqlDataType.VARCHAR)
 	private String department;
+	
+	@Column(name = "available", type = SqlDataType.BOOLEAN)
+	private boolean available;
 	
 	public Merchandise(){}
 	
@@ -49,6 +55,14 @@ public class Merchandise {
 	
 	public void setDepartment(String department) {
 		this.department = department;
+	}
+	
+	public boolean isAvailable() {
+		return available;
+	}
+	
+	public void setAvailable(boolean available) {
+		this.available = available;
 	}
 	
 	@Override

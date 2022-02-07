@@ -1,7 +1,12 @@
+import com.revature.annotations.Table;
+import com.revature.exceptions.MissingAnnotationException;
 import com.revature.repositories.Repository;
 import com.revature.util.SqlDataType;
 import models.Merchandise;
+import models.TestModel;
 import services.MerchService;
+
+import java.sql.SQLException;
 
 public class testing {
 	
@@ -12,6 +17,8 @@ public class testing {
 		Merchandise m = new Merchandise();
 		
 		ms.initializeTable(m);
+		
+		System.out.println("Table name:\t" + m.getClass().getAnnotation(Table.class).tableName() + "\n" );
 		
 		m.setName("Television");
 		m.setPrice(499.99);
@@ -44,7 +51,6 @@ public class testing {
 		ms.addItem(m);
 		
 		System.out.println( ms.getItem(3, m) +"\n");
-		
 		System.out.println( ms.getAll(m) +"\n");
 		
 		ms.deleteItem(1, m);
@@ -52,6 +58,33 @@ public class testing {
 		
 		ms.update(2, m);
 		System.out.println( ms.getAll(m) +"\n");
+		
+		
+		
+		TestModel tm = new TestModel();
+		
+		try {
+			repo.initializeTable(tm);
+		} catch (SQLException | MissingAnnotationException e) {
+			e.printStackTrace();
+		}
+		
+		tm.setName("name1");
+		tm.setSomeNum(1.1);
+		tm.setOtherNum(11);
+		repo.addItem(tm);
+		
+		TestModel t2 = new TestModel();
+		t2.setName("name2");
+		t2.setSomeNum(2.2);
+		t2.setOtherNum(22);
+		repo.addItem(t2);
+		
+		try {
+			System.out.println( repo.getAll(tm) );
+		} catch (InstantiationException | IllegalAccessException e) {
+			e.printStackTrace();
+		}
 		
 	}
 	

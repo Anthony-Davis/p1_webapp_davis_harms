@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>p1.webapp</groupId>
-  <artifactId>p1_webapp_davis_harms</artifactId>
+  <artifactId>Servlet</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 

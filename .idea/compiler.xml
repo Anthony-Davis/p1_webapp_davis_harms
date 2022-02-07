@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="p1_webapp_davis_harms" />
+        <module name="webapp_davis_harms_p1" />
+        <module name="webapp_p1" />
       </profile>
     </annotationProcessing>
   </component>

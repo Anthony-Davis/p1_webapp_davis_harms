@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+
 public class MainServlet extends HttpServlet {
 	
 	
@@ -18,10 +19,9 @@ public class MainServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		//RequestHelper.getProcess(request, response);
+		RequestHelper.getProcess(request, response);
 		
-		
-		
+		/*
 		response.getWriter().append("Welcome to the Main Servlet!");
 		System.out.println("Welcome to the Main Servlet!");
 		
@@ -51,8 +51,17 @@ public class MainServlet extends HttpServlet {
 		
 		switch(uri) {
 			
+			case "/*":
+				response.getWriter().append("\n* Worked!");
+				break;
 			case "/MainServlet":
-				response.getWriter().append("\nTest Worked!");
+				response.getWriter().append("\nMainServlet Worked!");
+				break;
+			case "/webapp/MainServlet":
+				response.getWriter().append("\nUse of webapp/MainServlet worked");
+				break;
+			case "/webapp":
+				response.getWriter().append("\nUse of webapp worked");
 				break;
 			case "/MainServlet/googleredirect":
 				response.sendRedirect("https://www.google.com");
@@ -62,7 +71,7 @@ public class MainServlet extends HttpServlet {
 				response.sendError(418);
 				break;
 			
-		}
+		}*/
 	}
 	
 	@Override

@@ -28,28 +28,29 @@ public class RequestHelper {
 		switch (uriTokens.length) {
 			//if the uriTokens only has two elements, a blank element and the project name, then nothing to process.
 			case 0:
-			case 1:
-			case 2: {
-				response.sendError(404);
+				response.getWriter().append("\nYou are in case 0");
 				break;
-			}
+			case 1:
+				response.getWriter().append("\nYou are in case 1");
+				break;
+			case 2:
+				response.getWriter().append("You are in case 2");
+				//response.sendError(404);
+				break;
 			//if the uriTokens is exactly 3 then it also has the collection name, but no path parameter.
-			case 3: {
+			case 3:
 				//Call our getAll<Insert Entity Here> methods.
 				if(("merchandise").equals(uriTokens[2])) mc.getAllMerch(request, response);
 				else response.sendError(400, "Collection does not exist");
 				break;
-			}
-			case 4: {
+			case 4:
 				//Call our get<Insert Entity Here> by Id service method.
 				request.setAttribute("id", uriTokens[3]);
 				if(("merchandise").equals(uriTokens[2])) mc.getMerchById(request, response);
 				break;
-			}
-			default: {
+			default:
 				response.sendError(400);
 				break;
-			}
 		}
 		
 	}

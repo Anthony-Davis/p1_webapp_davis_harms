@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Servlet" />
-        <module name="orm_p1" />
         <module name="webapp_p1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="orm_p1" target="8" />
       <module name="webapp_davis_harms_p1" target="8" />
     </bytecodeTargetLevel>
   </component>

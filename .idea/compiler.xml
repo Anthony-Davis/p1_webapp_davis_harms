@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="webapp_davis_harms_p1" />
+        <module name="Servlet" />
+        <module name="orm_p1" />
         <module name="webapp_p1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webapp_davis_harms_p1" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

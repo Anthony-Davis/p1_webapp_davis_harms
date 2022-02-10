@@ -23,7 +23,7 @@
 
     <dependency>
       <groupId>com.revature</groupId>
-      <artifactId>p1_orm</artifactId>
+      <artifactId>orm_p1</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
 

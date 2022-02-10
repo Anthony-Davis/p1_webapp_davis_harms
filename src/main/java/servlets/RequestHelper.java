@@ -24,15 +24,12 @@ public class RequestHelper {
 		
 		String[] uriTokens = uri.split("/");
 		System.out.println(Arrays.toString(uriTokens));
+		System.out.println("num of uriTokens:\t" + uriTokens.length);
 		
 		switch (uriTokens.length) {
 			//if the uriTokens only has two elements, a blank element and the project name, then nothing to process.
 			case 0:
-				response.getWriter().append("\nYou are in case 0");
-				break;
 			case 1:
-				response.getWriter().append("\nYou are in case 1");
-				break;
 			case 2:
 				response.getWriter().append("You are in case 2");
 				//response.sendError(404);
@@ -56,7 +53,6 @@ public class RequestHelper {
 	}
 	
 	public static void postProcess(HttpServletRequest request, HttpServletResponse response) throws IOException {
-		
 		
 		String uri = request.getRequestURI();
 		System.out.println(uri);

@@ -1,7 +1,6 @@
 package controllers;
 
 import com.google.gson.Gson;
-import com.revature.repositories.Repository;
 import exceptions.ResourceNotFoundException;
 import models.Merchandise;
 import services.MerchService;
@@ -44,7 +43,7 @@ public class MerchController {
 		
 		List<Object> merchList = new ArrayList<>();
 		String price = request.getParameter("price");
-		Object m = new Merchandise();
+		Merchandise m = new Merchandise();
 		
 		//if the price is null, then that Query Parameter was not provided, so we will do a normal getAllMerch
 		if (price == null) {
@@ -59,6 +58,7 @@ public class MerchController {
 		}
 		
 		response.getWriter().append(gson.toJson(merchList));
+		System.out.println(merchList);
 	}
 	
 	public void addMerch(HttpServletRequest request, HttpServletResponse response) throws IOException {

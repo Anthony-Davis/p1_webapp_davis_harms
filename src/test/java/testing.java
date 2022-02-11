@@ -50,14 +50,14 @@ public class testing {
 		m.setAvailable(true);
 		ms.addItem(m);
 		
-		System.out.println( ms.getItem(3, m) +"\n");
+//		System.out.println( ms.getItem(3, m) +"\n");
 		System.out.println( ms.getAll(m) +"\n");
-		
-		ms.deleteItem(1, m);
-		System.out.println( ms.getAll(m) +"\n");
-		
-		ms.update(2, m);
-		System.out.println( ms.getAll(m) +"\n");
+//
+//		ms.deleteItem(1, m);
+//		System.out.println( ms.getAll(m) +"\n");
+//
+//		ms.update(2, m);
+//		System.out.println( ms.getAll(m) +"\n");
 		
 		
 		

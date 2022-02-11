@@ -1,6 +1,7 @@
 package servlets;
 
 import com.revature.repositories.Repository;
+import com.revature.util.ConnectionFactory;
 import controllers.MerchController;
 import exceptions.ResourceNotFoundException;
 import services.MerchService;
@@ -9,6 +10,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.Connection;
 import java.util.Arrays;
 
 public class RequestHelper {
@@ -16,6 +18,7 @@ public class RequestHelper {
 	static Repository repo = new Repository();
 	static MerchService ms = new MerchService(repo);
 	static MerchController mc = new MerchController(ms);
+	Connection conn = ConnectionFactory.getConnection();
 	
 	public static void getProcess(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException, IOException {
 		
@@ -31,8 +34,7 @@ public class RequestHelper {
 			case 0:
 			case 1:
 			case 2:
-				response.getWriter().append("You are in case 2");
-				//response.sendError(404);
+				response.sendError(404);
 				break;
 			//if the uriTokens is exactly 3 then it also has the collection name, but no path parameter.
 			case 3:
@@ -64,22 +66,18 @@ public class RequestHelper {
 			//if the uriTokens only has two elements, a blank element and the project name, then nothing to process.
 			case 0:
 			case 1:
-			case 2: {
+			case 2:
 				response.sendError(404);
 				break;
-			}
 			//if the uriTokens is exactly 3 then it also has the collection name, but no path parameter.
-			case 3: {
+			case 3:
 				//Call our getAll<Insert Entity Here> methods.
 				if (("merchandise").equals(uriTokens[2])) mc.addMerch(request, response);
 				else response.sendError(400, "Collection does not exist");
 				break;
-			}
-			default: {
+			default:
 				response.sendError(400);
 				break;
-			}
-			
 		}
 		
 	}
@@ -96,12 +94,11 @@ public class RequestHelper {
 			//if the uriTokens only has two elements, a blank element and the project name, then nothing to process.
 			case 0:
 			case 1:
-			case 2: {
+			case 2:
 				response.sendError(404);
 				break;
-			}
 			//if the uriTokens is exactly 3 then it also has the collection name, but no path parameter.
-			case 4: {
+			case 4:
 				int id = 0;
 				String input = uriTokens[3];
 				
@@ -116,12 +113,9 @@ public class RequestHelper {
 				if (("merchandise").equals(uriTokens[2])) mc.updateMerch(request, response);
 				else response.sendError(400, "Collection does not exist");
 				break;
-			}
-			default: {
+			default:
 				response.sendError(400);
 				break;
-			}
-			
 		}
 		
 	}
@@ -138,12 +132,11 @@ public class RequestHelper {
 			//if the uriTokens only has two elements, a blank element and the project name, then nothing to process.
 			case 0:
 			case 1:
-			case 2: {
+			case 2:
 				response.sendError(404);
 				break;
-			}
 			//if the uriTokens is exactly 3 then it also has the collection name, but no path parameter.
-			case 4: {
+			case 4:
 				int id = 0;
 				String input = uriTokens[3];
 				
@@ -158,11 +151,9 @@ public class RequestHelper {
 				if (("merchandise").equals(uriTokens[2])) mc.deleteMerch(request, response);
 				else response.sendError(400, "Collection does not exist");
 				break;
-			}
-			default: {
+			default:
 				response.sendError(400);
 				break;
-			}
 			
 		}
 	}

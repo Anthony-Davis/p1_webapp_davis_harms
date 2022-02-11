@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>p1.webapp</groupId>
-  <artifactId>Servlet</artifactId>
+  <artifactId>MainServlet</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>p1_webapp_davis_harms Maven Webapp</name>
+  <name>webapp_davi_p1 Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>https://github.com/Anthony-Davis/p1_webapp_davis_harms</url>
 
@@ -55,7 +55,7 @@
   </dependencies>
 
   <build>
-    <finalName>p1_webapp_davis_harms</finalName>
+    <finalName>webapp</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

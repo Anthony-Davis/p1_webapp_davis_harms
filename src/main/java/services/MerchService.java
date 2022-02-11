@@ -1,7 +1,6 @@
 package services;
 
 import com.revature.exceptions.MissingAnnotationException;
-import com.revature.exceptions.ResourceNotFoundException;
 import com.revature.repositories.Repository;
 import com.revature.services.RepoService;
 import models.Merchandise;
@@ -11,6 +10,7 @@ import java.sql.SQLException;
 public class MerchService implements RepoService {
 	
 	private Repository<Object> repo;
+	
 	
 	public MerchService(Repository<Object> repo){
 		this.repo = repo;

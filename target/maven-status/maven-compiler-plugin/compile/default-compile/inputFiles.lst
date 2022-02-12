@@ -1,7 +1,7 @@
-C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\controllers\MerchController.java
-C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\services\MerchService.java
-C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\exceptions\ResourceNotFoundException.java
-C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\models\TestModel.java
-C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\models\Merchandise.java
-C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\servlets\RequestHelper.java
-C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\servlets\MainServlet.java
+C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\com\revature\exceptions\ResourceNotFoundException.java
+C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\com\revature\models\Merchandise.java
+C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\com\revature\services\MerchService.java
+C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\com\revature\servlets\RequestHelper.java
+C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\com\revature\models\TestModel.java
+C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\com\revature\controllers\MerchController.java
+C:\Users\Tone\IdeaProjects\webapp_davi_p1\src\main\java\com\revature\servlets\MainServlet.java

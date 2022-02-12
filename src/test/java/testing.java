@@ -1,10 +1,9 @@
 import com.revature.annotations.Table;
 import com.revature.exceptions.MissingAnnotationException;
 import com.revature.repositories.Repository;
-import com.revature.util.SqlDataType;
-import models.Merchandise;
-import models.TestModel;
-import services.MerchService;
+import com.revature.models.Merchandise;
+import com.revature.models.TestModel;
+import com.revature.services.MerchService;
 
 import java.sql.SQLException;
 

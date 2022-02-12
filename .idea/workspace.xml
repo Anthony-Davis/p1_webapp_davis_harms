@@ -4,60 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca03fe78-23f6-4a6d-b0b2-766e919ca6b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+    <list default="true" id="ca03fe78-23f6-4a6d-b0b2-766e919ca6b2" name="Changes" comment="updating files">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/MerchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/MerchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/WebDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/MerchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/MerchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/RequestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/RequestHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testing/RequestTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testing/ResponseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webserver/DefaultServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webserver/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webserver/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webserver/Servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webserver/WebServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/MerchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/controllers/MerchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Merchandise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/models/Merchandise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/TestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/models/TestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/MerchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/services/MerchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/servlets/MainServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/RequestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/servlets/RequestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/MerchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/MerchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/MerchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/MerchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/RequestHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/RequestHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/MerchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/WebDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/Merchandise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/TestModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/MerchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlets/MainServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlets/RequestHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testing/RequestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testing/ResponseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webserver/DefaultServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webserver/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webserver/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webserver/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webserver/WebServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/controllers/MerchController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/driver/WebDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/exceptions/ResourceNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/models/Merchandise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/models/TestModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/services/MerchService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/servlets/MainServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/servlets/RequestHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/testing/RequestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/testing/ResponseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/webserver/DefaultServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/webserver/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/webserver/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/webserver/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/classes/webserver/WebServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/lib/checker-qual-3.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/lib/p1_orm-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/lib/postgresql-42.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/p1_webapp_davis_harms/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/controllers/MerchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/driver/WebDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/exceptions/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/models/Merchandise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/models/TestModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/services/MerchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/servlets/MainServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/servlets/RequestHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/testing/RequestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/testing/ResponseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/webserver/DefaultServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/webserver/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/webserver/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/webserver/Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/webserver/WebServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/lib/checker-qual-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/lib/orm_p1-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/lib/postgresql-42.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +98,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,6 +119,14 @@
       <option name="presentableId" value="Default" />
       <updated>1644514725298</updated>
     </task>
+    <task id="LOCAL-00001" summary="updating files">
+      <created>1644594683378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644594683378</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updating files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating files" />
   </component>
 </project>

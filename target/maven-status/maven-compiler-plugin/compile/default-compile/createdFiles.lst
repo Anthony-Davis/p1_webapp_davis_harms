@@ -1,5 +1,0 @@
-servlets\RequestHelper.class
-controllers\MerchController.class
-models\Merchandise.class
-services\MerchService.class
-exceptions\ResourceNotFoundException.class
